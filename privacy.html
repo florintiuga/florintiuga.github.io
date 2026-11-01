@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Event Assistant – Privacy policy</title>
+<style>
+  body { margin: 0; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: #1a1a1a; background: #fff; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 20px; }
+  h1 { font-size: 28px; margin: 0 0 4px; color: #006a60; }
+  h2 { font-size: 19px; margin: 28px 0 6px; }
+  a { color: #006a60; }
+  @media (prefers-color-scheme: dark) { body { background: #000; color: #e8e8e8; } h1, a { color: #82d5c8; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy policy</h1>
+  <p>Event Assistant · last updated 2 November 2026</p>
+
+  <h2>What the app does</h2>
+  <p>Event Assistant is a personal Android app. It reads new emails in the email accounts you connect, finds events,
+     bills, deliveries, tickets, trials and deadlines, and creates calendar events on your phone and, if you connect it,
+     tasks in Asana.</p>
+
+  <h2>Data the app accesses</h2>
+  <ul>
+    <li><strong>Gmail (read-only, scope gmail.readonly):</strong> the subject, sender, date, text and PDF attachments of new
+        emails. The app never sends, changes or deletes emails.</li>
+    <li><strong>Outlook / Microsoft 365 (optional, Mail.Read):</strong> the same, for that account.</li>
+    <li><strong>Your phone's calendar:</strong> to add, open and (only when you ask) delete events the app created.</li>
+    <li><strong>Asana (optional):</strong> with a personal access token you provide, to create, open and (only when you ask)
+        delete tasks.</li>
+  </ul>
+
+  <h2>Where the data goes</h2>
+  <ul>
+    <li>There is <strong>no server</strong> run by the app or its author. Processing happens on your phone.</li>
+    <li>To recognise events, the content of new emails is sent to <strong>Google's Gemini API</strong> using <strong>your own
+        API key</strong>, under Google's terms for that key.</li>
+    <li>Events go to your phone's calendar (and from there to the calendar account you chose); tasks go to your Asana account.</li>
+    <li>Nothing is sold, shared with third parties or used for advertising.</li>
+  </ul>
+
+  <h2>Storage and deletion</h2>
+  <p>Results, settings and the list of emails already checked are stored only on your phone. API keys and tokens are
+     encrypted with a key that never leaves the device. Results are removed automatically after 60 days. Uninstalling the
+     app deletes everything it stored. A backup file is created only when you choose to save one.</p>
+
+  <h2>Google API Services User Data Policy</h2>
+  <p>Event Assistant's use and transfer of information received from Google APIs adheres to the
+     <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+     including the Limited Use requirements. Gmail data is used only to show you events found in your emails, is not
+     transferred to others except Google's Gemini API as described above, and is not used for advertising or by humans.</p>
+
+  <h2>Contact</h2>
+  <p>florin.tiuga@gmail.com</p>
+</main>
+</body>
+</html>
